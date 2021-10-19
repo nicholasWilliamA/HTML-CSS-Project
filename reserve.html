@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YBIKE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="headerAtas">
+            <div class="headerAtasKiri">
+                Indonesia No.1 Motorcycle Dealer
+            </div>
+            <div class="headerAtasKanan">
+                <img src="./Asset/logo.png" alt="" width="150px">
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="nav"><a href="home.html">
+                <p>Home</p>
+            </a></div>
+            <ul>
+                <li>
+                    <p>Products ↓</p>
+                    <ul>
+                        <li>
+                            <a href="vixian.html">
+                                <p>Vixian</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="kawasako.html">
+                                <p>Kawasako</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="nav"><a href="gallery.html">
+                <p>Gallery</p>
+            </a></div>
+            <div class="nav"><a href="reserve.html">
+                <p>Reserve</p>
+            </a></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-form">
+            <form action="" method="GET" onsubmit="return submitForm(this)">
+                <div class="name">
+                    <h3>
+                        Name : 
+                    </h3>
+                    <input type="text" id="name" name="name" placeholder="Enter Name"><br>
+                </div>
+                <div class="phone">
+                    <h3>
+                        Phone :
+                    </h3>
+                    <input type="text" id="phone" name="phone" placeholder="Enter Phone Number"><br>
+                </div>
+                <div class="address">
+                    <h3>
+                        Address : 
+                    </h3>
+                    <textarea name="address" id="address" placeholder="Enter Address"></textarea>
+                </div>
+                <div class="product">
+                    <h3>
+                        Choose a Product :
+                    </h3>
+                    <select name="products" id="products">
+                        <option value="VIXIAN R 2021">VIXIAN R 2021</option>
+                        <option value="VIXIAN R 2019 155">VIXIAN R 2019 155</option>
+                        <option value="VIXIAN R 2018 WHITE">VIXIAN R 2018 WHITE</option>
+                        <option value="VIXION MONSTER ENERGY">VIXION MONSTER ENERGY</option>
+                        <option value="VIXIAN R 2021 200">AVIXIAN R 2021 200</option>
+                        <option value="NINJA ZX-6R ABS">NINJA ZX-6R ABS</option>
+                        <option value="NINJA ZX-25R">NINJA ZX-25R</option>
+                        <option value="NINJA H2">NINJA H2</option>
+                        <option value="KX450X">KX450X</option>
+                    </select>
+                </div>
+                <div class="quantity">
+                    <h3>
+                        Quantity :
+                    </h3>
+                    <input type="text" id="quantity" name="quantity" placeholder="Enter Quantity"><br>
+                </div>
+                <div class="color">
+                    <h3>
+                        Choose color :
+                    </h3>
+                    <select name="color" id="color">
+                        <option value="Green">Green</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Silver">Silver</option>
+                    </select>
+                </div>
+                <div class="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="textFooter">
+            © 2016 YBIKE INDONESIA
+        </div>
+        <div class="logoFooter">
+            <div class="logo">
+                    <a href="https://www.instagram.com"><img src="Asset/580b57fcd9996e24bc43c521.png" alt=""></a>
+            </div>
+            <div class="logo">
+                <a href="https://www.twitter.com"><img src="Asset/twitter-icon-circle-blue-logo-0902F48837-seeklogo.com.png" alt=""></a>
+            </div>
+            <div class="logo">
+                <a href="https://www.facebook.com"><img src="Asset/facebook-512.png" alt=""></a>
+            </div>
+        </div>
+        
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,246 @@
+/* Home CSS */
+@media screen and (max-width : 500px){
+    .content{
+        padding:0;
+        margin: 0;
+        padding-bottom: 200px;
+    }
+    html{
+        margin-right: -120px;
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin:0px;
+    display: block;
+}
+
+.headerAtas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation{
+    background-color: #00ffff;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+.navigation ul{
+    padding: 10px;
+}
+.navigation ul li{
+    list-style-type: none;
+}
+.navigation ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    /* margin-top: -31px;
+    margin-left: -10px; */
+}
+.navigation ul li:hover ul{
+    display: block;
+    z-index: 1;
+}
+.navigation ul li ul li a{
+    text-decoration: none;
+}
+.navigation ul li ul li{
+    padding-bottom: 10px;
+}
+.nav{
+    margin-right: 20px;
+}
+.nav a{
+    text-decoration: none;
+}
+.content{
+    /* height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    background-image: url(Asset/double-bubble.png);
+    height: 580px;
+}
+.imageContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.textContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+.textContent p span{
+    display: block;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #00ffff;
+    height: 50px;
+    /* margin-top: 103px; */
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 30px;
+}
+.logoFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 8%;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* imageslider */
+.image-slider-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.prev {
+    padding: 8px 16px;
+    margin-right: 20px;
+    border: 0;
+    border-radius: 35px;
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+}
+
+.next {
+    padding: 8px 16px;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 35px;
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+}
+
+.image-slider{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slider{
+    position: relative;
+}
+
+.images{
+    position: relative;
+    float: left;
+}
+
+.images img{
+    height: 400px;
+    width: 800px;
+}
+
+/* VIXIAN CSS */
+.content h1{
+    padding-left: 40px;
+}
+.vixianText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.vixion img{
+    width: 370px;
+    height: 230px;
+}
+.vixion{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.vixionDesk{
+    padding-top: 20px;
+}
+.vixianKiri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.vixianKanan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* KAWASAKI CSS */
+.kawasakiText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.kawasaki img{
+    width: 370px;
+    height: 230px;
+}
+.kawasaki{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.kawasakiDesk{
+    padding-top: 20px;
+}
+.kawasakoKiri{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.kawasakoKanan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Gallery CSS */
+.galleryText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gallery img{
+    width : 370px;
+    height: 230px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.gallery {
+    padding-left: 200px;
+}
+
+/* h3 {
+    display: inline-block;
+    padding-right: 50px;
+} */
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+}
